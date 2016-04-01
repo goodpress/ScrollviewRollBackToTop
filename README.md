@@ -9,5 +9,8 @@ UIScrollview  练习
 
 附图
 
+![Alt text](/UIScrollviewDemo.gif?raw=true "Optional Title")
+
+-------
 
 ![gif img](http://file.51xianqu.net/iOS/test/UIScrollviewDemo.gif)
