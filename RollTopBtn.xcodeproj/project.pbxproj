@@ -15,6 +15,7 @@
 		5F069B476E812C083405BF3A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F069E88FA84B394A02551FF /* Main.storyboard */; };
 		5F069DCEDE4AB4C6F436EE26 /* RollTop.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F0699502CA94300F9EA8988 /* RollTop.m */; };
 		5F069FAC0D567BEF977F9BC9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F06949B0D3D85F87A3EE56B /* LaunchScreen.storyboard */; };
+		6F18B90C1CB013F2009C7D5F /* CustomBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F18B90B1CB013F2009C7D5F /* CustomBtn.m */; };
 		E096D3FD84939298637C9052 /* libPods-RollTopBtn.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FE14D8919F94C35CEA315DDC /* libPods-RollTopBtn.a */; };
 /* End PBXBuildFile section */
 
@@ -32,6 +33,8 @@
 		5F069CE56B745ED939AED86E /* RollTop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RollTop.h; sourceTree = "<group>"; };
 		5F069D900BB17FEA0CE1A678 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5F069EB45A73EABBD7311FEF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6F18B90A1CB013F2009C7D5F /* CustomBtn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomBtn.h; sourceTree = "<group>"; };
+		6F18B90B1CB013F2009C7D5F /* CustomBtn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomBtn.m; sourceTree = "<group>"; };
 		AC474D0D104DC631DE7D1EC8 /* Pods-RollTopBtn.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RollTopBtn.release.xcconfig"; path = "Pods/Target Support Files/Pods-RollTopBtn/Pods-RollTopBtn.release.xcconfig"; sourceTree = "<group>"; };
 		FE14D8919F94C35CEA315DDC /* libPods-RollTopBtn.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RollTopBtn.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -95,6 +98,8 @@
 				5F069BA546177D148FE9856A /* ViewController.m */,
 				5F0699502CA94300F9EA8988 /* RollTop.m */,
 				5F069CE56B745ED939AED86E /* RollTop.h */,
+				6F18B90A1CB013F2009C7D5F /* CustomBtn.h */,
+				6F18B90B1CB013F2009C7D5F /* CustomBtn.m */,
 			);
 			path = RollTopBtn;
 			sourceTree = "<group>";
@@ -227,6 +232,7 @@
 				5F06992DE52DB643B5AA8287 /* main.m in Sources */,
 				5F06901153BC9FCC2808D08A /* AppDelegate.m in Sources */,
 				5F069612256A36B011660744 /* ViewController.m in Sources */,
+				6F18B90C1CB013F2009C7D5F /* CustomBtn.m in Sources */,
 				5F069DCEDE4AB4C6F436EE26 /* RollTop.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

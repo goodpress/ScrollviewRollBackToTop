@@ -4,6 +4,7 @@
 //
 
 #import "RollTop.h"
+#import "CustomBtn.h"
 #import "View+MASAdditions.h"
 
 @class UIButton;
@@ -38,7 +39,8 @@
     static dispatch_once_t once;
     dispatch_once(&once, ^{
         NSLog(@"init btn");
-        tmpBtn = [[UIButton alloc] init];
+        tmpBtn = [CustomBtn buttonWithType:UIButtonTypeRoundedRect];
+        [tmpBtn setTitle:@"回顶" forState:UIControlStateNormal];
         UIWindow *keyWindow = [UIApplication sharedApplication].keyWindow;
         NSAssert(tmpBtn, @"初始化 btn 失败");
         [keyWindow addSubview:tmpBtn];
@@ -47,8 +49,7 @@
             maker.bottom.mas_equalTo(keyWindow.mas_bottom).offset(-20);
             maker.size.mas_equalTo(CGSizeMake(40, 40));
         }];
-        tmpBtn.layer.cornerRadius = tmpBtn.frame.size.width / 2;
-        tmpBtn.alpha = 0;
+//        tmpBtn.alpha = 0;
 
     });
     [tmpBtn setBackgroundColor:[UIColor whiteColor]];
